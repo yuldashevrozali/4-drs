@@ -71,7 +71,7 @@ button.addEventListener('click', function () {
     volidate();
     SetLocalsroge();
     CreateRow();
-    return age.value = '';
+    inputValueRemove()
 })
 
 window.onload = function () {
