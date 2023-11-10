@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: lightgray;
+}
+
+.block{
+    width: 800px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    margin-top: 99px;
+}
+
+.block input {
+    width: 24%;
+    padding: 7px;
+}
+
+.block input[type = 'button'] {
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+form{
+    margin-bottom: 20px;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    width: 100%;
+}
+
+td span{
+    color: blue;
+    cursor: pointer;
+}
+
+th,td{
+    padding: 8px;
+}
